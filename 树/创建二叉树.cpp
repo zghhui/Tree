@@ -52,5 +52,9 @@ int main()
 	cout << endl;
 	PreorderTraveral(BST);
 	cout << endl;
+	PostorderTraveral(BST);
+    
+	if (f(BST)) cout << "yes";
+	else cout<<"no";
 	return 0;
 }
